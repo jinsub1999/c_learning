@@ -27,3 +27,4 @@ int ascii(char ch1)
 
 	return ch2;
 }
+

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int prime_check(int n);
 
@@ -30,7 +31,7 @@ int main(void)
 		}
 	}
 
-
+	system("pause");
 	return 0;
 }
 

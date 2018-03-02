@@ -13,14 +13,8 @@ int main(void)
 	
 	for (;;)
 	{
-		R:
 		input_char(&i, &o);
-		if ((int)i == 10)
-		{
-			if ((int)o == 10) break;
-
-			else goto R;
-		}
+		if ((int)i == 10 && (int)o == 10) break;
 		output_ASCII(i ,o);
 	}
 	system("pause");
@@ -41,5 +35,4 @@ void output_ASCII(char ch1, char ch2)
 
 	
 	printf("Its ASCII code is : %d.\n", temp);
-	
 }
